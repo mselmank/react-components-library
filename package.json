@@ -1,10 +1,15 @@
 {
-  "name": "react-component-library",
-  "version": "0.0.1",
+  "name": "@mselmank/react-components-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/react-components-library"
+  },
+
+ "version": "0.0.1",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c"
   },
+
   "author": "Mselmank",
   "license": "ISC",
   "devDependencies": {
